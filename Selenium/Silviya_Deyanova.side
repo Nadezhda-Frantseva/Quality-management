@@ -1,0 +1,2480 @@
+{
+  "id": "ab0a7f68-5528-4b80-9f6c-f2c4acc032b6",
+  "version": "2.0",
+  "name": "UK",
+  "url": "https://pvzhelyazkova.wordpress.com",
+  "tests": [{
+    "id": "68f60a12-e1c7-4b1e-b07b-00eb67891943",
+    "name": "TC_FUNCT_02",
+    "commands": [{
+      "id": "08e58c37-04a2-4640-b6a0-c248b2060dc6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb986718-9a6b-4751-9017-d5d9def0ac00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d95d181a-3e4e-489b-aab4-92e1f42dba72",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-34 > a",
+      "targets": [
+        ["css=#menu-item-34 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Автобиография')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-34']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b0%d0%b2%d1%82%d0%be%d0%b1%d0%b8%d0%be%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d1%8f/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cc0513a-17f9-4df7-ab5c-1b5240615dff",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-156",
+      "targets": [
+        ["css=.wp-image-156", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/d182d180d0b0d0b9d0bad0be-d181d0b8d0bcd0b5d0bed0bdd0bed0b2.jpg?w=700')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "7290ed5a-6dde-4ff2-9e56-fd9a9e2ed727",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-156",
+      "targets": [
+        ["css=.wp-image-156", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/d182d180d0b0d0b9d0bad0be-d181d0b8d0bcd0b5d0bed0bdd0bed0b2.jpg?w=700')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02bce332-cfee-484c-b536-11f6fc3e3df6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-157",
+      "targets": [
+        ["css=.wp-image-157", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/map-traiko.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "bcc39e79-4012-4ca9-b419-005c61c471c3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-157",
+      "targets": [
+        ["css=.wp-image-157", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/map-traiko.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7090cf48-62cd-42ce-84b5-2388cb11e2f6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-162",
+      "targets": [
+        ["css=.wp-image-162", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/d0a8d0a3.jpg?w=426')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure[2]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[2]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "cba2a44f-af3f-4677-a386-46fdc02ed0f1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-162",
+      "targets": [
+        ["css=.wp-image-162", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/d0a8d0a3.jpg?w=426')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure[2]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[2]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11687cc9-7136-4a2a-b4a8-03c5953b7ec2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-161",
+      "targets": [
+        ["css=.wp-image-161", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/d0bad0b0d180d182d0b0-d0a8d0a3.png?w=472')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure[2]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[2]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "092d62a5-0d48-426a-ac34-53bd5ae7c4d1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-161",
+      "targets": [
+        ["css=.wp-image-161", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/d0bad0b0d180d182d0b0-d0a8d0a3.png?w=472')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure[2]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[2]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0fab2eb-9e8b-4686-97dd-883df63b41a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-156",
+      "targets": [
+        ["css=.wp-image-156", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/d182d180d0b0d0b9d0bad0be-d181d0b8d0bcd0b5d0bed0bdd0bed0b2.jpg?w=700')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da382e24-a7b7-498a-aaa1-d7ba64d80396",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab86f78-49fc-42d5-ae6d-bcfcede2880f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "79690cc0-6dfa-48f7-9fba-92967fa976ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-162",
+      "targets": [
+        ["css=.wp-image-162", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/d0a8d0a3.jpg?w=426')]", "xpath:img"],
+        ["xpath=//article[@id='post-24']/div/figure[2]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[2]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2ad555f-2a69-4c06-9799-e8dc6a990bfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "84e960e1-dee7-41d0-9808-7f356f91926e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint > svg",
+      "targets": [
+        ["css=.jp-carousel-close-hint > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8d7d4773-a3b2-4eaf-944b-efa533b86b60",
+    "name": "TC_FUNCT_05",
+    "commands": [{
+      "id": "af4b5468-6ba6-4930-a5ca-8579e031b436",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b7921cf-be6f-40ce-9d4c-76b0c34902f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc609159-bacb-4f55-a19f-a4a084616585",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6833ed-4f0f-4d31-af07-15609f6200d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-vivid-cyan-blue-background-color > strong",
+      "targets": [
+        ["css=.has-vivid-cyan-blue-background-color > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'ФИЛОСОФИЯ НА ПРЕПОДАВАНЕТО')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f4cd516-ae07-4f0d-bfbe-d4991581d8e2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3402.666748046875)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b2d20eb7-7143-43a5-acdf-775714f35eff",
+    "name": "TC_FUNCT_01",
+    "commands": [{
+      "id": "ce1edba9-86f7-4d05-939a-bdaa425107a9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbf869ba-7910-4878-8344-fe2308716c9c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a21f2d8c-158e-4bc5-86e2-37885635a8d6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.tiled-gallery__col:nth-child(1) img",
+      "targets": [
+        ["css=.tiled-gallery__col:nth-child(1) img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/69704549_901597546878244_3313025969840717824_n.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-2']/div/div[5]/div/div/div/div/div/div/div/figure/img", "xpath:idRelative"],
+        ["xpath=//div/div/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "5fca425a-b07b-452a-b3e9-6af9b87f2760",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.tiled-gallery__col:nth-child(1) img",
+      "targets": [
+        ["css=.tiled-gallery__col:nth-child(1) img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/69704549_901597546878244_3313025969840717824_n.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-2']/div/div[5]/div/div/div/div/div/div/div/figure/img", "xpath:idRelative"],
+        ["xpath=//div/div/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cad905f-af5f-4bd1-bb07-2aad4a3c97b1",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.tiled-gallery__col:nth-child(2) > .tiled-gallery__item:nth-child(1) > img",
+      "targets": [
+        ["css=.tiled-gallery__col:nth-child(2) > .tiled-gallery__item:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/wp_20180616_040.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-2']/div/div[5]/div/div/div/div/div/div/div[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//div[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "45be44ec-99c8-4ea3-a616-bb41fd0bf26b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.tiled-gallery__col:nth-child(2) > .tiled-gallery__item:nth-child(1) > img",
+      "targets": [
+        ["css=.tiled-gallery__col:nth-child(2) > .tiled-gallery__item:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/wp_20180616_040.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-2']/div/div[5]/div/div/div/div/div/div/div[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//div[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "407487e3-026b-4f4d-93fe-139d0a333c3d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.tiled-gallery__item:nth-child(2) > img",
+      "targets": [
+        ["css=.tiled-gallery__item:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/img_20181214_083427.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-2']/div/div[5]/div/div/div/div/div/div/div[2]/figure[2]/img", "xpath:idRelative"],
+        ["xpath=//figure[2]/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "c4b620bf-9f6f-409d-b80c-bc62f0526323",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.tiled-gallery__item:nth-child(2) > img",
+      "targets": [
+        ["css=.tiled-gallery__item:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/img_20181214_083427.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-2']/div/div[5]/div/div/div/div/div/div/div[2]/figure[2]/img", "xpath:idRelative"],
+        ["xpath=//figure[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75aa2cc9-ad3c-4f33-977d-52d153116d4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tiled-gallery__col:nth-child(1) img",
+      "targets": [
+        ["css=.tiled-gallery__col:nth-child(1) img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2019/09/69704549_901597546878244_3313025969840717824_n.jpg')]", "xpath:img"],
+        ["xpath=//article[@id='post-2']/div/div[5]/div/div/div/div/div/div/div/figure/img", "xpath:idRelative"],
+        ["xpath=//div/div/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fedbe33-cbc8-4c32-9ddb-f2f4a7fb43eb",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "ec5701af-db98-4d2f-85c3-48103ba97ef8",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c77bff25-e1e6-495e-b434-9b9955b3af3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "69bff80e-a57f-4bfd-9385-e20ad5646956",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "1f3edc44-217a-4cbf-8434-dc53f221cb4b",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac393aa9-7ae9-4ae7-ba46-67e404935d9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "927af948-e935-47f1-a09b-5d967ba36c17",
+    "name": "TC_FUNCT_27",
+    "commands": [{
+      "id": "44941530-4f12-41f6-a430-2706ce7bf42d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fde6ec5-f21d-4690-a8a4-a0ebfdbeec12",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f67814e9-acec-433a-9dfc-156db4e573bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-37 > a",
+      "targets": [
+        ["css=#menu-item-37 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Контакти')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-37']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a53610e-4e56-40d4-aa7d-628075756e4f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=https://www.facebook.com/profile.php?id=100005984868058",
+      "targets": [
+        ["linkText=https://www.facebook.com/profile.php?id=100005984868058", "linkText"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'https://www.facebook.com/profile.php?id=100005984868058')]", "xpath:link"],
+        ["xpath=//article[@id='post-29']/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/profile.php?id=100005984868058')]", "xpath:href"],
+        ["xpath=//article/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'https://www.facebook.com/profile.php?id=100005984868058')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "76145cfd-bf8e-46f0-b4a9-6e71704b7664",
+    "name": "TC_FUNCT_17",
+    "commands": [{
+      "id": "7060134d-50ed-4a83-aef4-4a8e2403455c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d1b4e16-1482-43a0-8848-834a2b14bef3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c5ac5ef-2323-4780-a249-f0f96be89463",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fa416a2-9efd-42d9-bb0e-f256309244e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-midnight-gradient-background > strong",
+      "targets": [
+        ["css=.has-midnight-gradient-background > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//div[5]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80d6b124-42f5-4c15-acfc-f8184abb7b30",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1119",
+      "targets": [
+        ["css=.wp-image-1119", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/1-1-1.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[3]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[3]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "b51fcd11-8621-4f40-9839-289e90d552c9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1119",
+      "targets": [
+        ["css=.wp-image-1119", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/1-1-1.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[3]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[3]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14d907fd-3561-4f72-8923-ce3da124ab1e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1120",
+      "targets": [
+        ["css=.wp-image-1120", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/2-6.jpg?w=960')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[3]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "e953961b-f5a2-4361-a56c-7cc95b95c901",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1120",
+      "targets": [
+        ["css=.wp-image-1120", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/2-6.jpg?w=960')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[3]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ed931b-7d2c-4b52-beae-9fff965ab034",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1119",
+      "targets": [
+        ["css=.wp-image-1119", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/1-1-1.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[3]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[3]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a229ddd-28cd-48f8-9463-19483818a41d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "6f7947d2-65a5-4d97-b082-3ef1aedc1f0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a71abdf5-7e69-42b2-ac8d-fb3a565611ec",
+      "comment": "",
+      "command": "executeScript",
+      "target": "${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "9778acf0-4324-43f4-a3d3-7a7fd55220a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cb37a9bf-3ef7-4961-b26c-51c74c1d7bd0",
+    "name": "TC_FUNCT_18",
+    "commands": [{
+      "id": "79cb29be-e64f-4eee-bb55-85f62c7245b0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ed7399d-1857-4220-bf97-9437ec69efee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f751c46f-91c1-4f3f-8771-6c8aebd71cb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8774159e-aa5a-4ace-8351-a7b8f9d65937",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=НАГРАДИ",
+      "targets": [
+        ["linkText=НАГРАДИ", "linkText"],
+        ["css=.has-midnight-gradient-background", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%bd%d0%b0%d0%b3%d1%80%d0%b0%d0%b4%d0%b8/')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2008a496-c0a6-4a32-af7d-636d7476f05c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1123",
+      "targets": [
+        ["css=.wp-image-1123", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/4-41.jpg?w=202')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[4]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[4]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "3ce791de-4140-4bba-aec5-c9b02ecdf8e6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1123",
+      "targets": [
+        ["css=.wp-image-1123", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/4-41.jpg?w=202')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[4]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[4]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0102a467-00a7-4a70-9c5b-fa4c2ddbc2c7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1122",
+      "targets": [
+        ["css=.wp-image-1122", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/3-6.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[4]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[4]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "050217e8-f3d5-499f-b45a-80282ccc5e57",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1122",
+      "targets": [
+        ["css=.wp-image-1122", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/3-6.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[4]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[4]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c98570d8-474c-4886-8c57-d204d48e132d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1123",
+      "targets": [
+        ["css=.wp-image-1123", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/4-41.jpg?w=202')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[4]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[4]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfa4c13c-b773-4ce7-a9f5-60e82552e71e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "f2a5e556-0680-448d-ad55-3da65f15c446",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "134fead0-857f-4c11-93b6-aebfc07982fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6c90fb5-5713-4161-b11f-72e2679e2b20",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "419e5af6-17f9-486e-9b9a-6b0ae73e5605",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dc00e87-f67c-4993-b3fd-7bb7355116ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3d53c902-2680-4b56-9335-cb8b8a10232c",
+    "name": "TC_FUNCT_19",
+    "commands": [{
+      "id": "f7142487-942d-4b1b-a144-b6e378cfac50",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6293803b-7013-4721-89f1-ac2061def3d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13371300-bdc3-4fd2-aaaf-36d26c98f62b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cacce2-00e0-49c2-84f1-16f3add1d9d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-midnight-gradient-background > strong",
+      "targets": [
+        ["css=.has-midnight-gradient-background > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//div[5]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a08b830c-7812-4e06-a532-b12bbeb28d97",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1124",
+      "targets": [
+        ["css=.wp-image-1124", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/5-6.jpg?w=984')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[5]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "0bf1cb2c-caa6-4d0f-b0ae-8a11f52103a7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1124",
+      "targets": [
+        ["css=.wp-image-1124", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/5-6.jpg?w=984')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[5]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "627ef46e-999b-48a2-814c-f6f774ab5d2c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1125",
+      "targets": [
+        ["css=.wp-image-1125", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/6-7.jpg?w=931')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[5]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "a7e33ec6-0876-4918-b8d8-92d09eb5cb69",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1125",
+      "targets": [
+        ["css=.wp-image-1125", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/6-7.jpg?w=931')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[5]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "738eac0a-22d8-4a14-8cfd-264bee17145b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1127",
+      "targets": [
+        ["css=.wp-image-1127", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/7-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[3]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "9ef22c81-21d2-4467-8135-249670125326",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1127",
+      "targets": [
+        ["css=.wp-image-1127", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/7-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[3]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "750a2f3e-7d23-498b-bbc5-10c068572329",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1128",
+      "targets": [
+        ["css=.wp-image-1128", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/8-6.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[4]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "d7f244d5-1472-4b36-8a03-96f856ba5e0b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1128",
+      "targets": [
+        ["css=.wp-image-1128", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/8-6.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[4]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ce79295-7626-4fbe-b14b-5ad4a5c01404",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1129",
+      "targets": [
+        ["css=.wp-image-1129", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/9-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[5]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[5]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "17c43b29-1d63-4337-9ef2-d469b749cf9c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1129",
+      "targets": [
+        ["css=.wp-image-1129", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/9-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[5]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[5]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58bed973-df0a-4842-8fe1-9e8ec93f83d7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1130",
+      "targets": [
+        ["css=.wp-image-1130", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/10-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[6]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[6]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "757f946e-c9bf-4569-895e-09c1d36fd2d0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1130",
+      "targets": [
+        ["css=.wp-image-1130", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/10-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[6]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[6]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f282569f-da02-4d55-af2b-6b7801a6849f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1131",
+      "targets": [
+        ["css=.wp-image-1131", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/11.jpeg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[7]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[7]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "f8775f26-a90d-46ee-b37e-bacdc8e0a8f6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1131",
+      "targets": [
+        ["css=.wp-image-1131", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/11.jpeg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li[7]/figure/img", "xpath:idRelative"],
+        ["xpath=//li[7]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de9afc6-22d7-4988-ac51-ae406cd6aae8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "98eca6b0-026e-4dbe-a4d9-15ad303cf6f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1124",
+      "targets": [
+        ["css=.wp-image-1124", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/5-6.jpg?w=984')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[5]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[5]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abb70c71-80b9-443e-817b-57c46abd388f",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbc53419-9512-49c3-b4d0-d6157c8567d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea06418-da80-4901-b00e-684b995227cf",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "d2a82fe9-8dbd-45c5-8a22-ddaa1b5bcb67",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<7",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c18fe521-50ad-4310-9e6b-61739d4157e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c0089603-d0d8-4397-b1b2-eb4037a2a8e7",
+    "name": "TC_FUNCT_20",
+    "commands": [{
+      "id": "310256f8-ab3d-4303-87f7-d29e4acfb0d2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bcd570e-fb2b-4c0e-aad0-aa8036a5caaa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c1bde58-885a-4b47-a76c-bba170d448be",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9afc4d96-efaa-4c42-b0f8-f7b66c37b196",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-midnight-gradient-background > strong",
+      "targets": [
+        ["css=.has-midnight-gradient-background > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//div[5]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d79debe-ba87-4efd-8472-3fe076c7d9a1",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1133",
+      "targets": [
+        ["css=.wp-image-1133", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/12-7.jpg?w=724')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[6]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[6]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "d66059e1-c369-466e-b41e-52617cce4ee5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1133",
+      "targets": [
+        ["css=.wp-image-1133", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/12-7.jpg?w=724')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[6]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[6]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1677e886-f0cd-4d86-9555-c698c71fd7bc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1134",
+      "targets": [
+        ["css=.wp-image-1134", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/13-7.jpg?w=893')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[6]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[6]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "de8259bf-6509-4469-bec9-ca4a22ef39ff",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1134",
+      "targets": [
+        ["css=.wp-image-1134", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/13-7.jpg?w=893')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[6]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[6]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b773de2-6478-4133-97b0-ed95b2e982cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1133",
+      "targets": [
+        ["css=.wp-image-1133", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/12-7.jpg?w=724')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[6]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[6]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "033b6c9c-c64b-4692-ae3b-ef086cefd831",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "ad02b622-e361-4d24-90ed-524bf6b473ac",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0df0e89b-4f43-4e5d-8409-44faf91ab457",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "382daa21-520f-49f3-a77c-a60949dbc72b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "3bd46e12-64a9-4d03-bfa8-7bff624d04cc",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03f1569c-0924-4b1c-90a1-81e00fe98833",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05792d59-2e18-401b-84c0-7bbd2e48bf8e",
+    "name": "TC_FUNCT_21",
+    "commands": [{
+      "id": "f8616272-f965-46f0-8fe1-eeabfadb2e6f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af41efa0-d97c-43ca-8d30-9603dc134dc0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b198256-7ee9-48e4-953e-e3ded1ae81f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "878c33e7-9799-43cc-9a71-ae81d368de49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=НАГРАДИ",
+      "targets": [
+        ["linkText=НАГРАДИ", "linkText"],
+        ["css=.has-midnight-gradient-background", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%bd%d0%b0%d0%b3%d1%80%d0%b0%d0%b4%d0%b8/')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d39d968d-e890-49d1-9c18-9323d8bce28a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1135",
+      "targets": [
+        ["css=.wp-image-1135", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/14-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[7]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[7]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "bfad5df9-4851-4daa-8e7c-d9c980df282f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1135",
+      "targets": [
+        ["css=.wp-image-1135", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/14-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[7]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[7]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3efd7599-5d9d-4e1f-b937-c3cfdf4a76d4",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1136",
+      "targets": [
+        ["css=.wp-image-1136", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/15.png?w=859')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[7]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[7]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "848d566a-1494-4ea0-a9e2-e433a43df923",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1136",
+      "targets": [
+        ["css=.wp-image-1136", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/15.png?w=859')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[7]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[7]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc6060ab-e00a-4927-9d70-65f3f9ecad7c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1138",
+      "targets": [
+        ["css=.wp-image-1138", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/16.png?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[7]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[7]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "b9e8f70f-ee17-4c68-a682-d2c461f1d7ea",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1138",
+      "targets": [
+        ["css=.wp-image-1138", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/16.png?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[7]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[7]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d59c282-4dc3-4ed7-9343-aa2c54d6496f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1135",
+      "targets": [
+        ["css=.wp-image-1135", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/14-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[7]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[7]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cd8db34-9ac4-407f-bbb2-210e7c89cc0e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "b6728fc4-a50a-4b2b-9a0f-296e9f104c0a",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd911843-dcf9-48e9-9ffc-9ba76cee2817",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a73d3ae-9f4d-4ca3-b23b-7b7b4f41f19a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "5081771c-50f6-4f08-869d-039bdb29af3d",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22c985bb-b749-45b0-a33e-e805280dcc7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4ba16fca-735f-477e-8e70-741d3da87524",
+    "name": "TC_FUNCT_22",
+    "commands": [{
+      "id": "f6d9b589-88b1-4a6a-80c6-2822cd72d6c0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "207c8036-2204-4356-8826-b64cc6e23215",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce3d3d75-3e90-405a-9651-a470e1a8ab68",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74ddfe29-169b-45cc-87ab-e8791622017d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-midnight-gradient-background > strong",
+      "targets": [
+        ["css=.has-midnight-gradient-background > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//div[5]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa61629-884a-40cf-810f-97dbc26175eb",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1140",
+      "targets": [
+        ["css=.wp-image-1140", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/17-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "36cf60fe-8d20-4c7e-965d-10ffc6133528",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1140",
+      "targets": [
+        ["css=.wp-image-1140", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/17-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0d9e5ed-9bf5-44bc-b69c-11b237d7487d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1141",
+      "targets": [
+        ["css=.wp-image-1141", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/18-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "48aee999-17f7-4a33-bfdf-47be3601812d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1141",
+      "targets": [
+        ["css=.wp-image-1141", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/18-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4798b77a-f374-4a6c-804c-7d49584ed872",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1142",
+      "targets": [
+        ["css=.wp-image-1142", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/19-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "698951bc-3fa3-465e-a49f-1291ce4fdd2f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1142",
+      "targets": [
+        ["css=.wp-image-1142", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/19-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc7b5069-6a45-4eb8-85fc-bb41f69e4e10",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1143",
+      "targets": [
+        ["css=.wp-image-1143", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/20-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "f8bd7519-b805-44e5-b5f4-b1827988c63d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1143",
+      "targets": [
+        ["css=.wp-image-1143", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/20-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "557aba8c-9b91-4440-95a8-fb60e0868b7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1140",
+      "targets": [
+        ["css=.wp-image-1140", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/17-7.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[8]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[8]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5740eb1d-9d4a-41aa-866c-cff22f00a6f2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "d58b7602-6b5a-4e2a-88dc-9eecab54f5cd",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c0c21f5-3a3b-4189-ac95-47af6b6789aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bc3612f-40cd-49d1-898f-154fe8c0999b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "d9e54ea9-22fc-4ad0-b711-5db03c785bce",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcf3a4d8-9e51-49de-adab-328c7a601bcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "238228e5-1aac-4464-830d-e8fa312d8324",
+    "name": "TC_FUNCT_23",
+    "commands": [{
+      "id": "d53d4bc7-bd8c-466d-bc7a-2651418cbb4e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68cde008-7a7f-4c3b-8fe8-f7fc961b6a6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22f7e38c-4ef2-4a72-9e24-9f0753c03082",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2ff388a-0ff0-41c9-b79b-1b2182e87793",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-midnight-gradient-background > strong",
+      "targets": [
+        ["css=.has-midnight-gradient-background > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//div[5]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42ec22ac-fdfb-46fa-89d5-78c8e4ecc7dc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1145",
+      "targets": [
+        ["css=.wp-image-1145", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/21-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "2722691f-3a7f-4523-b51c-70a2f71f3a3b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1145",
+      "targets": [
+        ["css=.wp-image-1145", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/21-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7f1cb6e-8205-450e-872d-354097b9dc5e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1146",
+      "targets": [
+        ["css=.wp-image-1146", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/22-4.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "10a3a868-73de-4b2d-8f86-b745e6845d99",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1146",
+      "targets": [
+        ["css=.wp-image-1146", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/22-4.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84ee239f-ffc5-47f3-ad97-ae02484e5d92",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1147",
+      "targets": [
+        ["css=.wp-image-1147", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/23-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "90636faa-2682-4d8f-a88a-2d748de80456",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1147",
+      "targets": [
+        ["css=.wp-image-1147", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/23-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1695b304-7d19-4f5f-975c-ede4beee4dd8",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1148",
+      "targets": [
+        ["css=.wp-image-1148", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/24-5.jpg?w=698')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "5646d17e-80eb-41a5-b167-451e7ae71640",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1148",
+      "targets": [
+        ["css=.wp-image-1148", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/24-5.jpg?w=698')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afc5ca0d-4f51-4fc0-b942-3001ea61f8a7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1149",
+      "targets": [
+        ["css=.wp-image-1149", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/25-5.jpg?w=623')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[5]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[5]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "1440f33b-e95f-4a58-bf4c-cbe24df59f43",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1149",
+      "targets": [
+        ["css=.wp-image-1149", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/25-5.jpg?w=623')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[5]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[5]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "804beda8-5e13-4bd0-a0c7-e1f4e2d88062",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1150",
+      "targets": [
+        ["css=.wp-image-1150", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/26-4.jpg?w=712')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[6]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[6]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "cefc9751-7834-4631-b3b9-eb5e8b498f45",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1150",
+      "targets": [
+        ["css=.wp-image-1150", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/26-4.jpg?w=712')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[6]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[6]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "868e6219-bd6d-48cf-a68d-5cd5e3f4e643",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1151",
+      "targets": [
+        ["css=.wp-image-1151", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/27-4.jpg?w=720')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[7]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[7]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "5893cdd1-4c1a-475b-8b32-4f18844f331a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1151",
+      "targets": [
+        ["css=.wp-image-1151", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/27-4.jpg?w=720')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li[7]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li[7]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df1a6f68-e0b5-4024-bb68-2d22719e5afb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1145",
+      "targets": [
+        ["css=.wp-image-1145", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/21-5.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[9]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[9]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc0d6fe-61c8-45fe-b2ec-95818d76db50",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "c9624af6-44c1-4455-9ee3-2d3aad1769f1",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e49c59cd-b67b-4748-be3a-2d8890a7054e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "745c2a3d-0efa-4388-af4e-da49cf16a01d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "a24c2f61-0879-46ca-8d3b-d59744b458cc",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<7",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32e73fc4-31f4-4f6b-9030-383267979385",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c23030ca-ff79-4e1e-9c00-e2ed611dbbb9",
+    "name": "TC_FUNCT_24",
+    "commands": [{
+      "id": "520d6987-32e7-4de3-887e-71169d3b6886",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bea13fff-b877-46ba-b046-6e2508dfd9ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e2a23a5-21c5-44a9-a6b6-9b00601bc83a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4a98cba-b8a4-4e2f-8e2f-2a2bca683ec1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-midnight-gradient-background > strong",
+      "targets": [
+        ["css=.has-midnight-gradient-background > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//div[5]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64b70c0f-b264-40e6-a02e-d2be8428954c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1153",
+      "targets": [
+        ["css=.wp-image-1153", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/28-4.jpg?w=1011')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "3fa4f721-e4c1-43cc-ad73-c94c2ee98192",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1153",
+      "targets": [
+        ["css=.wp-image-1153", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/28-4.jpg?w=1011')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eda2fe64-f07c-4c16-9e0c-154c649d166e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1154",
+      "targets": [
+        ["css=.wp-image-1154", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/29-4.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "bc6459b2-7683-46ab-8e77-1ed6115ca6b9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1154",
+      "targets": [
+        ["css=.wp-image-1154", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/29-4.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "782ac4ba-81c8-47f1-9eea-7140a547bc9f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1155",
+      "targets": [
+        ["css=.wp-image-1155", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/31-4.jpg?w=1007')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "80bd4b4f-82ff-4b70-bf13-901f7fa5aa7e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1155",
+      "targets": [
+        ["css=.wp-image-1155", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/31-4.jpg?w=1007')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "866c4703-49da-44be-a82b-f502a6f45b25",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1156",
+      "targets": [
+        ["css=.wp-image-1156", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/32-4.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "27552b51-bfe3-4e0b-8fd4-d39840414cb4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1156",
+      "targets": [
+        ["css=.wp-image-1156", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/32-4.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "722728a4-00b5-44dd-b2ab-6d0af1f76342",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1153",
+      "targets": [
+        ["css=.wp-image-1153", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/28-4.jpg?w=1011')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[10]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[10]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a6ec517-8dbf-4149-8e40-84c5975f9423",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "186a8b19-aa2e-4245-a913-4190f0192fd8",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "670049dc-29c7-4315-ad6e-f7b9140bd3a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffe5dd7d-2832-4d35-8770-b755c4ebb69c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "dbd66771-1336-4f75-a58c-9ec27a0e90d2",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35d2fbb7-6e97-407a-8dfd-3a9c1757229c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "19e04517-3bde-46c4-8fe6-e8847686374e",
+    "name": "TC_FUNCT_25",
+    "commands": [{
+      "id": "f8770a97-0daf-4c45-8d44-e6df55e5ca58",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9c452ce-e334-41d4-a7db-197ef2f5d281",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac7bc35e-b2ca-424a-91a1-fc5f799ad102",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdeba4d0-84a3-4a13-a3bd-86b11c289950",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-midnight-gradient-background > strong",
+      "targets": [
+        ["css=.has-midnight-gradient-background > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//div[5]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1617ab4-7f31-4439-acd4-332a2ee3f26c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1158",
+      "targets": [
+        ["css=.wp-image-1158", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/33-4.jpg?w=945')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "5d7693d5-4c81-40e9-b809-eebda437c281",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1158",
+      "targets": [
+        ["css=.wp-image-1158", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/33-4.jpg?w=945')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9785ce89-a8b8-40c4-bd41-3fb0a4b7d596",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1159",
+      "targets": [
+        ["css=.wp-image-1159", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/34-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "eddae1d6-b283-4b75-abc0-1f697b0aeef3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1159",
+      "targets": [
+        ["css=.wp-image-1159", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/34-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30c9882c-d91f-4120-8b8a-78659dbdcb27",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1160",
+      "targets": [
+        ["css=.wp-image-1160", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/35-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "cc8d9ce2-e2ec-4a88-8ee6-0226182e7caf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1160",
+      "targets": [
+        ["css=.wp-image-1160", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/35-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f4b7fc4-e620-4b78-8188-a3ff8031c735",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1161",
+      "targets": [
+        ["css=.wp-image-1161", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/36-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "91026f81-f6b3-4250-9b72-9b47f33a99ce",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1161",
+      "targets": [
+        ["css=.wp-image-1161", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/36-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f094e1d5-f5b1-45d1-a6d2-51df2294f92f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1162",
+      "targets": [
+        ["css=.wp-image-1162", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/37-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[5]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[5]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "e69782bc-890b-43d1-9a74-dc40c349ddc3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1162",
+      "targets": [
+        ["css=.wp-image-1162", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/37-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[5]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[5]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb3f0036-6418-4665-b693-eeb3c371a942",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1163",
+      "targets": [
+        ["css=.wp-image-1163", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/38-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[6]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[6]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "564f0b50-7b5a-41b3-be6b-a9d2cae42da1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1163",
+      "targets": [
+        ["css=.wp-image-1163", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/38-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li[6]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li[6]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "645dbb9e-b710-4316-9d9f-15365b00dbd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1158",
+      "targets": [
+        ["css=.wp-image-1158", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/33-4.jpg?w=945')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[11]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[11]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b122a01-fb01-44e4-89ab-a363f988c4c3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "f593342c-5489-4781-b80a-f2681c830e07",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ba9eea0-12f4-45f0-af0d-95853fb64e36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4be93883-6b8c-4c32-b875-78cc80a32c3c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "ae203521-6afa-4209-b744-f0a7f5f9230d",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<6",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "159a5427-d02c-4d15-ba2b-62692e5fcf25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8cf141f1-20dd-4516-922f-5b2db992e7c3",
+    "name": "TC_FUNCT_26",
+    "commands": [{
+      "id": "24dec359-5195-49cf-8a4c-d1a0919549c1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5de64c79-d719-4d40-ae26-3f762555f48f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b519d79-da4d-40f4-ae6d-a4d1cdc9b2e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-36 > a",
+      "targets": [
+        ["css=#menu-item-36 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дейности')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-36']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pvzhelyazkova.wordpress.com/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abe7c61e-8ae5-4987-b39d-1560b27e1054",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-midnight-gradient-background > strong",
+      "targets": [
+        ["css=.has-midnight-gradient-background > strong", "css:finder"],
+        ["xpath=//article[@id='post-27']/div/div/div[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//div[5]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'НАГРАДИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d5a42eb-a618-4b0f-82f1-b748aec8bbac",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1164",
+      "targets": [
+        ["css=.wp-image-1164", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/39-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "3f64685e-1983-47b6-a4e4-892fb89bae21",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1164",
+      "targets": [
+        ["css=.wp-image-1164", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/39-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4a404cc-34d3-4260-a206-006da43a7a63",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1165",
+      "targets": [
+        ["css=.wp-image-1165", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/41-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "e867cd58-be14-4cfb-b443-1c36c7b374bd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1165",
+      "targets": [
+        ["css=.wp-image-1165", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/41-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[2]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[2]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "812ac26c-28e4-4cd0-b087-b567c4175881",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1167",
+      "targets": [
+        ["css=.wp-image-1167", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/42-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "8dc1e3b6-e9cd-4829-9a3d-ba344bdd5ab0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1167",
+      "targets": [
+        ["css=.wp-image-1167", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/42-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[3]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[3]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e8b50ec-944f-4152-8004-dd95fc2b5fe2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1168",
+      "targets": [
+        ["css=.wp-image-1168", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/43-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "1b246ea1-9c25-4788-b144-322e3f190d02",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1168",
+      "targets": [
+        ["css=.wp-image-1168", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/43-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[4]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[4]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebaa4e29-ef52-4bdd-a4b9-29f16cbee378",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1169",
+      "targets": [
+        ["css=.wp-image-1169", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/43-1-1.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[5]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[5]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "6a164648-ad53-42e7-af3c-7b938daa0cae",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1169",
+      "targets": [
+        ["css=.wp-image-1169", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/43-1-1.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[5]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[5]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0c86ad-2653-4868-91b1-5fdf7e0c7eec",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wp-image-1170",
+      "targets": [
+        ["css=.wp-image-1170", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/44-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[6]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[6]/figure/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "395024f7-ac6d-4771-abde-a1894413671e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wp-image-1170",
+      "targets": [
+        ["css=.wp-image-1170", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/44-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li[6]/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li[6]/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8423c214-3d32-472c-b000-e3fda45b8320",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-image-1164",
+      "targets": [
+        ["css=.wp-image-1164", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pvzhelyazkova.files.wordpress.com/2021/10/39-2.jpg?w=1024')]", "xpath:img"],
+        ["xpath=//article[@id='post-305']/div/figure[12]/ul/li/figure/img", "xpath:idRelative"],
+        ["xpath=//figure[12]/ul/li/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf19d88-fd0d-4448-9756-7ed8ae716b08",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "d8b59232-4550-493a-bd00-98ec440da350",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4bf32ab-f900-47b0-ac14-6160da43eea9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-swiper-button-next rect",
+      "targets": [
+        ["css=.jp-swiper-button-next rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4530eaa0-b905-426c-bd4b-edd60ac8251a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${loopvar}+1",
+      "targets": [],
+      "value": "loopvar"
+    }, {
+      "id": "a13a8610-bfba-4d76-9c6e-4af2fe79ac04",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${loopvar}<6",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0ace134-f8c2-47f9-8fff-29fdd7679f58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jp-carousel-close-hint rect",
+      "targets": [
+        ["css=.jp-carousel-close-hint rect", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "63fc469a-5273-4da9-b231-07dffacc6f37",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://pvzhelyazkova.wordpress.com/"],
+  "plugins": []
+}
